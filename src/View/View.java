@@ -18,7 +18,7 @@ package View;
 	import controller.Process;
 
 	//collaborated with Zining Han
-	public class Frame{
+	public class View{
 		JFrame gameFrame;
 		
 		JPanel operatePanel;
@@ -42,12 +42,9 @@ package View;
 		JButton startButton;
 		
 		
-		public static void main(String[] args)
-		{
-			new Frame();
-		}
 		
-		public Frame(){
+		
+		public View(){
 			gameFrame=new JFrame("Conway's game of life");
 			gameFrame.setResizable(false);
 			
